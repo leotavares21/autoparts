@@ -1,0 +1,43 @@
+.container_wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 5vw;
+
+  @media (max-width: 768px) {
+    padding: 0 2vw;
+  }
+}
+
+.btn {
+  margin: 1.25rem 0;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
+
+.btn-dark {
+  background: var(--dark);
+  color: var(--light);
+}
+
+.btn-light {
+  background: var(--light);
+}
+
+.btn-gray {
+  background: var(--gray);
+}
+
+.btn-outline {
+  border: 2px solid var(--gray);
+}
+
+.btn-light {
+  background: var(--light);
+  color: var(--dark);
+}

@@ -1,0 +1,56 @@
+.about_container {
+  img {
+    border-radius: 1rem;
+    margin: 0 auto;
+  }
+
+  h1,
+  h2 {
+    margin-top: 2rem;
+  }
+
+  .about_content,
+  .about_mission {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .about_values {
+    width: 80%;
+    margin: 0 auto;
+
+    @media (max-width: 690px) {
+      width: 100%;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    ul {
+      margin-top: 2rem;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+
+      .icon {
+        font-size: 5rem;
+        margin-right: 1rem;
+        color: #90ee90;
+
+        @media (max-width: 520px) {
+          font-size: 12rem;
+          margin-right: 0.5rem;
+        }
+      }
+
+      strong {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+:root {
+  --light: #fff;
+  --dark: #000;
+
+  --blue: #144fe1;
+  --gray: #f5f5f5;
+  --gray-100: #ccc;
+  --gray-200: #767676;
+}
+
+body,
+input,
+button {
+  font: 400 1.325rem "Roboto", sans-serif;
+  color: var(--dark);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--light);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "League Gothic", sans-serif;
+  margin-bottom: 0.75rem;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2,
+h3 {
+  font-size: 3.5rem;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+strong {
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark);
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
