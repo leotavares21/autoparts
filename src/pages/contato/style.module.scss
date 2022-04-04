@@ -41,13 +41,13 @@
     textarea {
       width: 100%;
       padding: 0.5rem;
-
       border-radius: 0.5rem;
       border: 2px solid var(--dark);
     }
 
     textarea {
-      height: 10rem;
+      resize: vertical;
+      min-height: 8.5rem;
     }
 
     input,
