@@ -15,11 +15,13 @@
     align-items: flex-end;
 
     margin-bottom: 3rem;
+    padding-top: 3rem;
 
     @media (max-width: 1220px) {
       flex-direction: column;
       align-items: center;
       text-align: center;
+      padding-top: 1rem;
     }
 
     .banner_desc {
